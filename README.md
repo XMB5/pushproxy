@@ -143,7 +143,7 @@ When you restart/run `apsd` afterwards (`kill` or `launchctl`), after a few fail
 ### Extract and copy device certificate
 #### Extract iOS Certificates
 
-First, download the [nimble](http://xs1.iphwn.org/releases/PushFix.zip) tool, extract `PushFix.zip` and place `nimble` into `setup/ios`. The following script will copy the tool to your iOS device, run it and copy the extracted certificates back to your computer. It assumes you have **SSH** running on your device. I recommend setting up key-based authentication, otherwise you will be typing your password a few times.
+First, download the [nimble](https://web.archive.org/web/20140215110845if_/http://xs1.iphwn.org/releases/PushFix.zip) tool, extract `PushFix.zip` and place `nimble` into `setup/ios`. The following script will copy the tool to your iOS device, run it and copy the extracted certificates back to your computer. It assumes you have **SSH** running on your device. I recommend setting up key-based authentication, otherwise you will be typing your password a few times.
 
 Make sure you are in the pushproxy root directory, otherwise the script will fail.
 
