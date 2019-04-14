@@ -30,14 +30,10 @@ DISPATCH_HANDLERS = [LoggingHandler(),
 
 
 APPLE_PUSH_IPS = (
-        '17.172.232.218',
-        '17.172.232.59',
-        '17.172.232.134',
-        '17.172.232.135',
-        '17.172.232.145',
-        '17.172.232.216',
-        '17.172.232.142',
-        '17.172.232.212')
+        '1-courier.push.apple.com',
+        '2-courier.push.apple.com',
+        '3-courier.push.apple.com',
+        '4-courier.push.apple.com')
 
 factory = InterceptServerFactory(
     hosts=APPLE_PUSH_IPS,
